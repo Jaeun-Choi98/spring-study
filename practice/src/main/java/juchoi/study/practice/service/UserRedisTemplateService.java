@@ -25,8 +25,7 @@ import lombok.extern.slf4j.Slf4j;
 public class UserRedisTemplateService {
   private final RedisTemplate<String, Object> redisTemplate;
   private final StringRedisTemplate stringRedisTemplate;
-  private final ObjectMapper objectMapper = new ObjectMapper()
-      .registerModule(new JavaTimeModule());
+  
 
   // ==================== String 작업 ====================
 
