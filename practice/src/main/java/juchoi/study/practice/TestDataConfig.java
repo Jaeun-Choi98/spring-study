@@ -31,5 +31,4 @@ public class TestDataConfig {
       // User.builder().email("email E").name("E").isActive(true).build()));
     }
   }
-
 }

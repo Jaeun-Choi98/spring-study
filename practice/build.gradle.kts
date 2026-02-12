@@ -40,6 +40,12 @@ dependencies {
   // RabbitMQ Binder
   implementation ("org.springframework.cloud:spring-cloud-stream-binder-rabbit")
 
+	// Spring Security
+	implementation("org.springframework.boot:spring-boot-starter-security")
+
+	// Spring Redis
+	implementation("org.springframework.boot:spring-boot-starter-data-redis")
+
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
